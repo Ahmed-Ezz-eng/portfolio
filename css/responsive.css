@@ -1,0 +1,173 @@
+
+@media(max-width: 576px) {
+    .container{
+        max-width: 90%;
+    }
+}
+
+@media(min-width: 576px){
+    .container{
+        max-width: 540px;
+    }
+}
+
+@media(min-width: 768px){
+    .container{
+        max-width: 720px;
+    }
+}
+
+@media(min-width: 992px){
+    .container{
+        max-width: 960px;
+    }
+}
+
+
+@media(min-width: 1200px){
+    .container{
+        max-width: 1140px;
+    }
+}
+
+
+@media(min-width: 1400px){
+    .container{
+        max-width: 1320px;
+        margin: auto;
+    }
+}
+
+
+/* home */
+
+@media(max-width: 862px) {
+    .home-info{
+        margin-top: 50px;
+    }
+
+    .home-info,
+    .home-img{
+        width: 100%;
+        text-align: center;
+
+    }
+
+    .home-img img{
+        max-width: 80%;
+    }
+}
+
+@media(max-width: 768px) {
+
+    nav {
+        position: fixed;
+        width: 250px;
+        height: 100vh;
+        background: #ddd;
+        top: 77px;
+        right: -250px;
+        z-index: 2;
+        transition: all .4s linear;
+        -webkit-transition: all .4s linear;
+        -moz-transition: all .4s linear;
+        -ms-transition: all .4s linear;
+        -o-transition: all .4s linear;
+}
+
+nav.active{
+    right: 0px;
+}
+
+    header li.barsIcon{
+        display: inline-block;
+    }
+
+    nav ul{
+        flex-flow: column wrap;
+        align-items: center;
+    }
+    
+    nav ul li {
+        margin-top: 25px;
+    }
+
+    nav ul li a{    
+        color: #054ca9;
+    }
+
+}
+
+
+/* about */
+@media(max-width: 900px){
+    .about .img-content{
+        width: 300px;
+        height: 300px;
+    }
+
+    .about-img img{
+        width: 250px;
+        height: 250px;
+    }
+}
+
+@media(max-width: 768px){
+
+    .about-info,
+    .about-img{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .about-info{
+        padding-right: 0px;
+    }
+
+    .about .img-content{
+        margin: auto;
+    }
+}
+
+@media(max-width: 400px){
+    .about .img-content{
+        width: inherit;
+        height: inherit;
+        padding: 15px;
+    }
+
+    .about-img img{
+        width: inherit;
+        height: inherit;
+    }
+}
+
+
+/* skills */
+@media(max-width: 768px){
+    .skills{
+        background: #eee;
+    }
+}
+
+
+/* projects */
+@media(max-width: 900px){
+    .project-content{
+        width: 32%;
+    }
+}
+
+@media(max-width: 768px){
+    .project-content{
+        width: 48%;
+    }
+}
+
+@media(max-width: 600px){
+    .project-content{
+        width: 100%;
+    }
+}
+
+
