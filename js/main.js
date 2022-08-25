@@ -75,6 +75,6 @@ let banner = document.querySelector(".banner");
             loading.classList.add("active");
         }, 15000)
 
-// window.onload = function() {
-//     loading.remove();
-// }
+window.onload = function() {
+    loading.remove();
+}
