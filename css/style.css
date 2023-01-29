@@ -541,6 +541,7 @@ span.circle::after{
 
 .project-content h3{
     font-size: 30px;
+    font-weight: 600;
     margin: 15px 0px 0px;
     color: var(--second-color);
 }
